@@ -1,13 +1,13 @@
-🚀 Credit Card Fraud Detection 2.0
+# 🚀 Credit Card Fraud Detection 2.0
 
 A simple and modern frontend that predicts whether a credit card transaction is SAFE or FRAUD, using an ML model + clean UI.
 
-📌 About This Project
+## 📌 About This Project
 
 This is the upgraded version of my previous Credit Card Fraud Detection project.
 Is version me:
 
-✔ Single transaction prediction
+### ✔ Single transaction prediction
 
 ✔ CSV batch upload
 
