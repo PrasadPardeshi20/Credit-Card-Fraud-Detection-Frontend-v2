@@ -1,144 +1,45 @@
 🚀 Credit Card Fraud Detection 2.0
-ML-Powered Fraud Prediction System with Modern React Frontend
-<div align="center"> <img src="https://via.placeholder.com/900x350?text=Credit+Card+Fraud+Detection+2.0" /> </div>
-📌 Overview
 
-Credit Card Fraud Detection 2.0 is the upgraded version of my original fraud detection project.
-This version includes a complete React + TypeScript frontend, ML-powered prediction engine, CSV batch fraud analysis, and an interactive analytics dashboard.
+A simple and modern frontend that predicts whether a credit card transaction is SAFE or FRAUD, using an ML model + clean UI.
 
-The system predicts whether a transaction is SAFE or FRAUD, assigns a risk level, and calculates a confidence score using a custom ML pipeline + Gemini API.
+📌 About This Project
 
-✨ Features
-🔍 1. Single Transaction Prediction
+This is the upgraded version of my previous Credit Card Fraud Detection project.
+Is version me:
 
-Enter transaction details manually
+✔ Single transaction prediction
 
-Real-time fraud prediction
+✔ CSV batch upload
 
-Risk level: Low / Medium / High / Critical
+✔ Fraud risk level (Low / Medium / High / Critical)
 
-Confidence score
+✔ Clean React + Vite frontend
 
-Detailed output view
+✔ Gemini API-based intelligent scoring
 
-📂 2. Batch CSV Upload
+🖼 Screenshots :
+1️⃣ Home / Input Page:
+  <img width="1920" height="1080" alt="Screenshot 2025-12-01 233049" src="https://github.com/user-attachments/assets/ef2a3228-a521-4b13-8018-9c712e08963a" />
+2️⃣ Rediction Result :
+  <img width="1920" height="1080" alt="Screenshot 2025-12-01 233149" src="https://github.com/user-attachments/assets/aaedff66-3235-4770-92dc-31699b7bb7ba" />
+  <img width="1920" height="1080" alt="Screenshot 2025-12-01 233124" src="https://github.com/user-attachments/assets/0a87a633-0406-4b32-a9db-0b1baa87630d" />
 
-Upload CSV containing multiple transactions
-
-Row-wise fraud prediction
-
-Confidence + risk levels
-
-Supports large CSV files
-
-Clean results table
-
-📊 3. Analytics Dashboard
-
-Total transactions
-
-Fraud count
-
-Amount processed
-
-Model accuracy
-
-Graphs & distribution visualizations
-
-🧠 Tech Stack
-Frontend
-
-React
-
-TypeScript
-
-Vite
-
-TailwindCSS
-
-Lucide Icons
-
-ML / Backend Logic
-
-Custom Fraud Detection Logic
-
-Gemini API
-
-CSV Parsing
-
-Risk Scoring Engine
-
-🗂 Project Structure
-credit-card-fraud-detection-2.0/
-│── src/
-│   ├── components/
-│   ├── pages/
-│   ├── utils/
-│   ├── types.ts
-│   ├── App.tsx
-│   └── index.tsx
-│── public/
-│── package.json
-│── tsconfig.json
-│── vite.config.ts
-│── index.html
-│── README.md
-│── .gitignore
-
-🖼 Screenshots
-
-⚠ Replace these image links with your actual uploaded screenshots:
-
-Home Page / Prediction Panel
-![Home Page](./screenshots/home.png)
-
-Single Prediction Output
-![Single Prediction](./screenshots/single_prediction.png)
-
-Batch CSV Upload
-![Batch Upload](./screenshots/batch_upload.png)
-
-Dashboard Analytics
-![Dashboard](./screenshots/dashboard.png)
-
-⚙️ Installation & Usage
-1️⃣ Clone the repository
-git clone https://github.com/<your-username>/credit-card-fraud-detection-2.0.git
-cd credit-card-fraud-detection-2.0
-
-2️⃣ Install dependencies
+⚙️ How to Run
+1. Install packages
 npm install
 
-3️⃣ Add your Gemini API key
+2. Add API Key
 
-Create a file named .env.local:
+Project root me .env.local file banao:
 
 GEMINI_API_KEY=YOUR_API_KEY_HERE
 
-4️⃣ Run the project
+3. Start the app
 npm run dev
 
 
-App runs at:
-👉 http://localhost:3000
+Open: http://localhost:3000
 
-🙏 Acknowledgment
 
-Special thanks to @YourFriend for helping with the frontend UI styling.
-All machine learning logic, fraud detection model, CSV pipeline & risk scoring system were built by me.
 
-⭐ Support
 
-If you like this project, please ⭐ star the repo — it motivates me to build more ML + AI projects.
-
-🔥 Ready to paste.
-
-Bhai bas:
-
-README copy–paste karo
-
-Screenshots folder banao: /screenshots
-
-Apne 3–4 images daal do
-
-README me links replace kar do
