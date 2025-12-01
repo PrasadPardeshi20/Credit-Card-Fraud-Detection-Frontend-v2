@@ -9,36 +9,44 @@ Is version me:
 
 ### ✔ Single transaction prediction
 
-✔ CSV batch upload
+### ✔ CSV batch upload
 
-✔ Fraud risk level (Low / Medium / High / Critical)
+### ✔ Fraud risk level (Low / Medium / High / Critical)
 
-✔ Clean React + Vite frontend
+### ✔ Clean React + Vite frontend
 
-✔ Gemini API-based intelligent scoring
-
-🖼 Screenshots :
-1️⃣ Home / Input Page:
-  <img width="1920" height="1080" alt="Screenshot 2025-12-01 233049" src="https://github.com/user-attachments/assets/ef2a3228-a521-4b13-8018-9c712e08963a" />
-2️⃣ Rediction Result :
-  <img width="1920" height="1080" alt="Screenshot 2025-12-01 233149" src="https://github.com/user-attachments/assets/aaedff66-3235-4770-92dc-31699b7bb7ba" />
-  <img width="1920" height="1080" alt="Screenshot 2025-12-01 233124" src="https://github.com/user-attachments/assets/0a87a633-0406-4b32-a9db-0b1baa87630d" />
-
-⚙️ How to Run
-1. Install packages
-npm install
-
-2. Add API Key
-
-Project root me .env.local file banao:
-
-GEMINI_API_KEY=YOUR_API_KEY_HERE
-
-3. Start the app
-npm run dev
+### ✔ Gemini API-based intelligent scoring
 
 
-Open: http://localhost:3000
+## 🖼 Screenshots :
+
+### 1️⃣ Home / Input Page :
+
+  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c1222d68-45f2-40da-92e9-b3de85aa2c85" />
+
+
+### 2️⃣ Single Rediction Result :
+  
+  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3c2a127e-1d81-4b7e-8586-ab491c5655e0" />
+
+
+### 3️⃣ CSV Batch Upload :
+
+  <img width="1920" height="1080" alt="ssss" src="https://github.com/user-attachments/assets/8888f8c3-42d3-494c-8b8a-99ae8012a91f" />
+
+
+## ⚙️ How to Run
+
+### 1. Install packages :
+  npm install
+
+### 2. Start the app
+  npm run dev
+  Open: http://localhost:3000
+
+
+
+
 
 
 
